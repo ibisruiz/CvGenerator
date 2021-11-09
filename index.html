@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/custom/style.css" />
+  <title>CV Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-3">
+        <h2 class="display-6 text-center mb-4">Generador de CV</h2>
+
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead></thead>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start"> <label for="nombreField"> Nombre </label> </th>
+                <td><input type="text" id="nombreField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="cargoField"> Cargo </label></th>
+                <td><input type="text" id="cargoField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="perfilField"> Perfil </label></th>
+                <td><input type="text" id="perfilField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="correoField"> Correo </label></th>
+                <td><input type="text" id="correoField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="telefonoField"> Telefono </label></th>
+                <td><input type="text" id="telefonoField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="paginawebField"> Pagina Web </label></th>
+                <td><input type="text" id="paginawebField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="hobbyField"> Hobby </label></th>
+                <td><input type="text" id="hobbyField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="empleoField"> Empleo </label></th>
+                <td><input type="text" id="empleoField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="educacionField"> Educacion </label></th>
+                <td><input type="text" id="educacionField" /></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start"><label for="skillsField"> Skills </label></th>
+                <td><input type="text" id="skillsField" /></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="float-end">
+          <button type="button" class="btn btn-outline-success" onclick="CreateCV()">Crear</button>
+          <button type="button" class="btn btn-dark me-2" onclick="Limpiar()">Limpiar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5" id="cv-container">
+    
+    
+
+  </div>
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/site/index/index.js"></script>
+</body>
+
+</html>

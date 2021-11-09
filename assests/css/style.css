@@ -1,0 +1,49 @@
+.estilo1 {
+    width: 26rem;
+    margin-left: 1%;
+  }
+
+  .estiloDiv {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 26.7rem;
+  }
+
+  .stylebtn {
+    margin-bottom: 2%;
+    width: 26rem;
+    margin-left: 1%;
+  }
+
+  .input-error{
+    border-color:tomato;
+    border-width: medium;
+  }
+
+  .cvgenHeader{
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    text-align: center;
+    width: 55.13rem;
+    border-color: red;
+    border-width: medium;
+    font-weight: bolder;
+  }
+
+  .cvgenMainDiv{
+    margin-top: 1%;
+    margin-right: 1%;
+  }
+
+  .cvgenTitles{
+    text-align: center;
+    font-weight: bolder;
+    font-size:larger;
+  }
+
+
+  .stylebtn2 {
+    margin-top: 3%;
+    margin-left: -30%;
+    width: 35rem;
+  }
